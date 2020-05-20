@@ -12,13 +12,12 @@
 
                     <h2 class="text-dark-color font-weight-medium margin-top-36">
                         We Offering #1
-                        <br><span class="font-weight-bold font-style-italic">COMPUTER REPAIR</span>
-                        <br>Service Since 2014.
+                        <br><span class="font-weight-bold font-style-italic">Phone REPAIR</span>
+                        <br>Service.
 
                     </h2>
 
                     <p class="margin-top-24">
-                        <a href="https://www.youtube.com/watch?v=nrJtHemSPW4" class="btn btn-theme venobox vbox-item btn-secondary btn-semi-rounded" data-vbtype="video" data-autoplay="true"><i class="fa fa-play"></i> Watch Video</a>
                         <a href="#" class="btn btn-theme btn-theme-invert btn-semi-rounded">Book Appointment</a>
 
                     </p>
@@ -31,12 +30,12 @@
 
                         <div class="highlight-layout-1 highlight-icon-padding theme-custom-box-shadow theme-custom-box-animation">
                             <figure class="margin-bottom-0">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-angellist"></i>
                                 </a>
                             </figure>
                             <h5 class="font-weight-regular font-size-regular">
-                                <a href="#">Quality Service</a>
+                                <a>Quality Service</a>
                             </h5>
                         </div>
 
@@ -46,12 +45,12 @@
 
                         <div class="highlight-layout-1 highlight-icon-padding theme-custom-box-shadow theme-custom-box-animation">
                             <figure class="margin-bottom-0">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-people-carry"></i>
                                 </a>
                             </figure>
                             <h5 class="font-weight-medium font-size-regular">
-                                <a href="#">Expert Workers</a>
+                                <a>Expert Workers</a>
                             </h5>
                         </div>
 
@@ -61,12 +60,12 @@
 
                         <div class="highlight-layout-1 highlight-icon-padding theme-custom-box-shadow theme-custom-box-animation">
                             <figure class="margin-bottom-0">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-shuttle-van"></i>
                                 </a>
                             </figure>
                             <h5 class="font-weight-regular font-size-regular">
-                                <a href="#">Quick Delivery</a>
+                                <a>Quick Delivery</a>
                             </h5>
                         </div>
 
@@ -87,7 +86,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_1.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_1.jpg') }}" alt="gallery image" height="420px" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -101,7 +100,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_2.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_2.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -115,7 +114,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_3.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_3.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -129,7 +128,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_4.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_4.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -143,7 +142,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_5.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_5.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -157,7 +156,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_6.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_6.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -171,7 +170,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_7.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_7.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -185,7 +184,7 @@
 
                             <figure class="gallery-img">
 
-                                <img src="{{ asset('images/gallery_8.jpg') }}" alt="gallery image" />
+                                <img src="{{ asset('images/gallery_8.jpg') }}" height="420px" alt="gallery image" />
 
                             </figure> <!-- end .cause-img  -->
 
@@ -202,97 +201,69 @@
 
 </section>
 
-<!--  LOGO  -->
+<!--  SECTION APPOINTMENT   06-->
 
-<section class="section-content-block section-content-block-minimal section-custom-bg" data-bg_color="#f7f7f9" data-bg_opacity="1">
+<section class="section-content-block section-secondary-bg">
+
     <div class="container">
 
         <div class="row">
 
-            <div class="logo-layout-1 logo-items owl-carousel" data-nav="false"  data-dots="false" data-items="8" data-autoplay="false">
+            <div class="appointment-form-wrapper light-layout  margin-bottom-24 clearfix theme-custom-no-box-shadow d-lg-inline-flex">
 
-                <div class="col-12">
+                <div class="col-lg-4 col-12">
+                    <div class="appointment-form-heading text-left">
+                        <h2 class="form-title text-capitalize margin-top-24">
+                            Request Booking
+                        </h2>
 
-                    <div class="client-logo">
+                        <p>
+                            Please fill out the booking form and very soon we will contact with you to schedule an appointment.
+                        </p>
 
-                        <img src="{{ asset('images/logo_1.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_2.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_3.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_4.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_5.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_6.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-
-                        <img src="{{ asset('images/logo_7.jpg') }}" alt="" />
-
-                    </div>
-
-                </div>
-
-                <div class="col-12">
-
-                    <div class="client-logo">
-                        <img src="{{ asset('images/logo_8.png') }}" alt="" />
                     </div>
                 </div>
 
-            </div> <!-- end .logo-items  -->
+                <div class="col-lg-8 col-12">
 
-        </div> <!-- end row  -->
-    </div>
-</section>
+                    <form class="appoinment-form margin-top-42 wow fadeInLeft">
+
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="form-group col-4">
+                                    <input id="your_name" class="form-control" placeholder="Name" type="text"  required="" data-msg="This field is required.">
+                                </div>
+                                <div class="form-group col-4">
+                                    <input id="your_email" class="form-control" placeholder="Email" type="email"  required="" data-msg="This field is required.">
+                                </div>
+                                <div class="form-group col-4">
+                                    <input id="your_phone" class="form-control" placeholder="Phone" type="text"  required="" data-msg="This field is required.">
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <textarea id="textarea_message" class="form-control" rows="3" placeholder="Your Message..."  required="" data-msg="This field is required."></textarea>
+                                </div>
+
+                                <div class="form-group col-12 col-sm-12 col-xs-12 text-left">
+                                    <button id="btn_submit" class="btn btn-lg btn-theme btn-semi-rounded btn-theme-invert" type="submit">Get Appointment</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div> <!-- end .appointment-form-wrapper  -->
+
+
+        </div> <!--  end .row  -->
+
+    </div> <!--  end .container -->
+
+</section>  <!--  end .appointment-section  -->
 
 <!--  ABOUT US -->
 
@@ -313,7 +284,6 @@
                         </h4>
                         <p>
                             Get your device repaired quickly by our experts and professionals and we promise to deliver the quality work to you.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                         </p>
                     </div> <!-- end .col-sm-12  -->
 
@@ -374,7 +344,7 @@
 
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
 
-                <img src="{{ asset('images/about_us_persons.jpg') }}" alt="" class="img-responsive wow fadeInRight">
+                <img src="{{ asset('images/about_us_persons.jpg') }}" style="width: 400px;" alt="" class="img-responsive wow fadeInRight">
 
             </div>
 
@@ -405,7 +375,7 @@
                 <div class="process-step-1 block-primary-bg wow fadeIn theme-custom-box-animation theme-custom-box-shadow" data-wow-delay="0.20s">
 
 
-                    <i class="fa fa-laptop text-light-color"></i>
+                    <i class="fa fa-mobile-alt text-light-color"></i>
                     <h3 class="text-light-color">
                         Bring The Device
                     </h3>
@@ -504,219 +474,6 @@
 
 </section> <!--  end .section-content-block -->
 
-<!--  SECTION APPOINTMENT   06-->
-
-<section class="section-content-block section-secondary-bg">
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="appointment-form-wrapper light-layout  margin-bottom-24 clearfix theme-custom-no-box-shadow d-lg-inline-flex">
-
-                <div class="col-lg-4 col-12">
-                    <div class="appointment-form-heading text-left">
-                        <h2 class="form-title text-capitalize margin-top-24">
-                            Request Booking
-                        </h2>
-
-                        <p>
-                            Please fill out the booking form and very soon we will contact with you to schedule an appointment.
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-8 col-12">
-
-                    <form class="appoinment-form margin-top-42 wow fadeInLeft">
-
-                        <div class="container">
-                            <div class="row">
-
-                                <div class="form-group col-4">
-                                    <input id="your_name" class="form-control" placeholder="Name" type="text"  required="" data-msg="This field is required.">
-                                </div>
-                                <div class="form-group col-4">
-                                    <input id="your_email" class="form-control" placeholder="Email" type="email"  required="" data-msg="This field is required.">
-                                </div>
-                                <div class="form-group col-4">
-                                    <input id="your_phone" class="form-control" placeholder="Phone" type="text"  required="" data-msg="This field is required.">
-                                </div>
-
-                                <div class="form-group col-12">
-                                    <textarea id="textarea_message" class="form-control" rows="3" placeholder="Your Message..."  required="" data-msg="This field is required."></textarea>
-                                </div>
-
-                                <div class="form-group col-12 col-sm-12 col-xs-12 text-left">
-                                    <button id="btn_submit" class="btn btn-lg btn-theme btn-semi-rounded btn-theme-invert" type="submit">Get Appointment</button>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-
-            </div> <!-- end .appointment-form-wrapper  -->
-
-
-        </div> <!--  end .row  -->
-
-    </div> <!--  end .container -->
-
-</section>  <!--  end .appointment-section  -->
-
-<!--  SECTION SERVICE 01 -->
-
-<section class="section-content-block section-custom-bg parallax" data-bg_img="images/service_custom_bg.jpg" data-bg_color="#FFFFFF" data-bg_opacity="0.5" data-stellar-background-ratio="0.9">
-
-    <div class="container">
-
-        <div class="row section-heading-wrapper">
-
-            <div class="col-md-12 col-sm-12 text-center">
-                <h4 class="heading-alt-style text-capitalize text-dark-color">Our Services</h4>
-                <span class="heading-separator heading-separator-horizontal"></span>
-                <h2 class="subheading-alt-style pl-lg-5 pl-0 pr-lg-5 pr-0">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut laoreet orci tortor sed dignissim urna ullamcorper sit amet.
-                </h2>
-            </div> <!-- end .col-sm-12  -->
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-
-                    <figure>
-                        <img src="{{ asset('images/service_1.jpg') }}" alt="service" />
-                        <span class="fa fa-wrench"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>Laptop Repair</h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-
-
-                </article>
-
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-
-                    <figure>
-                        <img src="{{ asset('images/service_2.jpg') }}" alt="service" />
-                        <span class="fa fa-compress"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>Processor Repair</h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-                </article>
-
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-
-                    <figure>
-                        <img src="{{ asset('images/service_3.jpg') }}" alt="service" />
-                        <span class="fa fa-address-card"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>Motherboard Fix</h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-                </article>
-
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-                    <figure>
-                        <img src="{{ asset('images/service_4.jpg') }}" alt="service" />
-                        <span class="fa fa-th-list"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>RAM Installation</h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-                </article>
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-                    <figure>
-                        <img src="{{ asset('images/service_5.jpg') }}" alt="service" />
-                        <span class="fa fa-hard-of-hearing"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>HDD Upgrade </h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-                </article>
-
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-            <div class="col-lg-4 col-sm-6 col-12">
-
-                <article class="service-block-1 text-center">
-                    <figure>
-                        <img src="{{ asset('images/service_6.jpg') }}" alt="service" />
-                        <span class="fa fa-key"></span>
-                    </figure>
-
-                    <div class="service-content">
-                        <h3>Keyboard Repair </h3>
-                        <p>
-                            We diagnose the device, make a list and inform you about the repair costs and time it needs to fix.
-                        </p>
-                        <a href="service-details.html" class="btn btn-theme btn-small btn-inline btn-semi-rounded">View Details</a>
-                    </div>
-
-                </article>
-
-            </div> <!--  end .col-lg-4 col-sm-12  -->
-
-        </div>  <!--  end .row  -->
-
-    </div> <!--  end .container  -->
-
-</section> <!--  end .section-content-block -->
 
 <!-- SECTION TESTIMONIAL  04 -->
 
@@ -743,7 +500,7 @@
 
             <div class="col-lg-5 d-none-md d-none-sm no-padding">
                 <figure>
-                    <img src="{{ asset('images/testimony_feat_img.jpg') }}" alt="" class="db"/>
+                    <img src="{{ asset('images/testimony_feat_img.jpg') }}" alt="" height="400px" class="db"/>
                 </figure>
             </div>
 
