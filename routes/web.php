@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/contact-us', function () {
     return view('template/frontEnd/pages/contact');
 });
+Route::get('/shops', function () {
+    return view('template/frontEnd/pages/shops');
+});
