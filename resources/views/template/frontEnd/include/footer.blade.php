@@ -18,7 +18,7 @@
                 </form>
             </div>
         </div>
-        <div class="footer-sub-footer"><span>© 2020 Designed by Ali, Hassan & Talha.</span></div>
+        <div class="footer-sub-footer"><span>© 2020 Designed by Talha  <i class="fas fa-heart"></i></span></div>
     </div>
 </footer>
 </div>
@@ -27,9 +27,7 @@
 <script src="{{ asset('js/plugins/vendor.js') }}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDY6I7UJcrmSP9ltgqE2CqHvn_a0LlRiaI"></script>
 <script src="{{ asset('js/main.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-</body>
+<script src="https://kit.fontawesome.com/ffe1193991.js" crossorigin="anonymous"></script>
 
 <!-- Mirrored from netgon.ru/themeforest/repaired_html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 May 2020 18:57:15 GMT -->
 </html>
