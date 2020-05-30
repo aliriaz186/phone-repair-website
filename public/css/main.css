@@ -3525,6 +3525,8 @@ input.error:hover, input.error:focus, input.error:active, textarea.error:hover, 
   }
   .home-content-subheading{
     font-size: 120%;
+    text-decoration: underline;
+    cursor: pointer;
   }
   .home-content-heading{
     font-size: 250%;
@@ -3650,4 +3652,9 @@ input.error:hover, input.error:focus, input.error:active, textarea.error:hover, 
   .main-header-wrapper{
     overflow-y: auto;
   }
+}
+
+.select-problem-cards:hover{
+    cursor: pointer;
+    background-color: #b5c8ff52;
 }

@@ -22,3 +22,6 @@ Route::get('/contact-us', function () {
 Route::get('/shops', function () {
     return view('template/frontEnd/pages/shops');
 });
+Route::get('/book-a-repair', function () {
+    return view('template/frontEnd/pages/book-a-repair');
+});
