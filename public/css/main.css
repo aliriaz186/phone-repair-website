@@ -3657,4 +3657,5 @@ input.error:hover, input.error:focus, input.error:active, textarea.error:hover, 
 .select-problem-cards:hover{
     cursor: pointer;
     background-color: #b5c8ff52;
+    text-decoration: underline;
 }
