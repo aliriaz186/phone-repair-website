@@ -61,175 +61,196 @@
                     <div class="container container-custom clearfix">
                         <h1 class="text-center" style="font-weight: 800!important;">MOBILE <span style="color: #005cbf">PHONE</span>
                             REPAIRS<br> BY PROBLEM</h1>
-                        <div style="width: 640px!important;margin: 0 auto!important;">
-                            <h3 class="text-center" style="font-weight: bold"><span style="width: 35px;height: 35px;margin-right: 20px;background: #e8e8e8;border-radius: 30px;line-height: 35px;text-align: center;color: #fe636c;font-size: 17px;padding-top: 8px; padding-bottom: 8px;padding-left: 14px;padding-right: 13px;">1</span>Select Problem</h3>
+                        <div style="width: 640px!important;margin: 0 auto!important;display: none;">
+                            <p class="text-center" style="font-weight: bold;text-transform: none!important;font-size: x-large"><span
+                                    style="width: 35px;height: 35px;margin-right: 20px;background: #e8e8e8;border-radius: 30px;line-height: 35px;text-align: center;color: #fe636c;font-size: 17px;padding-top: 8px; padding-bottom: 8px;padding-left: 14px;padding-right: 13px;">1</span>Select
+                                Problem</p>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                    src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/screen.svg">
+                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/screen.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Phone Screen
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                    src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/home-button.svg">
+                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/home-button.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Home Button
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                    src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/battery.svg">
+                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/battery.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Battery
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/power-button.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Power Button
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/microphone.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Microphone
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/headphone-jack.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Headphone jack
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/ear-speaker.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Ear Speaker
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/volume-buttons.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Volume Buttons
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/mute-button.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Mute Button
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/front-camera.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Front Camera
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/rear-camera.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Rear Camera
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/vibrator.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Vibrator
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/back-housing.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Back Housing
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/loud-speaker.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Loud Speaker
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/glass.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Tablet Glass
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/lcd.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Tablet LCD
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/charger-port.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Charger Port
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/back-glass.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Back Glass
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/frame.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Frame
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/finger-print.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Finger Print Scanner
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/wireless-charging.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Wireless Charging
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/proximity-issue.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Proximity Issue
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/s-pen.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     S Pen
                             </div>
                             <div class="select-problem-cards"
-                                style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                 <img style="height: 78px;margin: 12px 25px;width: 78px;"
                                      src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/iris-camera.svg">
                                 <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
                                     Iris Camera
+                            </div>
+                        </div>
+                        <div style="width: 380px!important;margin: 0 auto!important;display: block;">
+                            <p class="text-center" style="font-weight: bold;text-transform: none!important;font-size: x-large"><span
+                                    style="width: 35px;height: 35px;margin-right: 20px;background: #e8e8e8;border-radius: 30px;line-height: 35px;text-align: center;color: #fe636c;font-size: 17px;padding-top: 8px; padding-bottom: 8px;padding-left: 14px;padding-right: 13px;">2</span>Select
+                                Phone Type</p>
+                            <div class="select-problem-cards"
+                                 style="width: 160px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
+                                     src="https://reviveaphoneuploads.s3.eu-west-1.amazonaws.com/device-types/phones/dblue-line.svg">
+                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
+                                    Apple Phone Repairs
+                            </div>
+                            <div class="select-problem-cards"
+                                 style="width: 160px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
+                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
+                                     src="https://reviveaphoneuploads.s3.eu-west-1.amazonaws.com/device-types/phones/dblue-line.svg">
+                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
+                                    Samsung Phone Repairs
                             </div>
                         </div>
                     </div>
