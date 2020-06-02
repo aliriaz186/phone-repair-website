@@ -25,3 +25,8 @@ Route::get('/shops', function () {
 Route::get('/book-a-repair', function () {
     return view('template/frontEnd/pages/book-a-repair');
 });
+Route::get('/book-a-repair/problem/{problem}', function (string $problem) {
+    return view('template/frontEnd/pages/select-phone-problem')->with(['problem' => $problem]);
+});
+Route::get('/book-a-repair/problem/{problem}/phone/{type}','BookARepairController@viewPhoneList');
+Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color','BookARepairController@viewPhoneWithAllColors');
