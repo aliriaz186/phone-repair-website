@@ -51,6 +51,7 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/book-a-repair">Book a Repair</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="about.html">About</a></li>
                         <li class="main-header-navigation-item main-header-navigation-dropdown main-header-navigation-dropdown-first"><a class="main-header-navigation-link main-header-navigation-dropdown-toggle" href="#">Gallery<i class="icon ion-android-arrow-dropdown"></i></a>
                             <ul class="main-header-navigation-list-sub main-header-navigation-list">

@@ -46,7 +46,7 @@
                         data-src="images/kh.jpg" alt=""></div>
                 <div class="home-background-overlay"></div>
                 <div class="home-content"><span class="home-content-heading">Broken your Phone?</span><span
-                        class="home-content-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, veritatis, exercitationem. Quam excepturi reprehenderit.</span>
+                        class="home-content-subheading"><a style="color: white" href="{{env('APP_URL')}}/book-a-repair">Book a Repair</a></span>
                 </div>
             </header>
             <!-- Content Block  -->
@@ -54,7 +54,7 @@
                 <div class="content-block-item">
                     <div class="appointment-block">
                         <div class="container container-custom">
-                            <h3>Make an Appointment</h3>
+                            <h3>Wake in Repair</h3>
                             <div class="row row-flex">
                                 <div class="col-xs-12 col-md-6">
                                     <form>
@@ -112,35 +112,6 @@
                                     <!-- About Block Image--><img src="{{ asset('images/ipport2.jpg') }}" alt="">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Content Block Item-->
-                <div class="content-block-item">
-                    <div class="counter-block">
-                        <!-- Counter Block Start -->
-                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                            <div class="counter-item-icon"><i class="icon ion-heart-broken"></i></div>
-                            <span>6500</span>
-                            <h4>Broken Screen</h4>
-                        </div>
-                        <!-- Counter Block Start -->
-                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                            <div class="counter-item-icon"><i class="icon ion-battery-empty"></i></div>
-                            <span>15000</span>
-                            <h4>Replacement Battery</h4>
-                        </div>
-                        <!-- Counter Block Start -->
-                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                            <div class="counter-item-icon"><i class="icon ion-monitor"></i></div>
-                            <span>1500</span>
-                            <h4>Working Hackintosh</h4>
-                        </div>
-                        <!-- Counter Block Start -->
-                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                            <div class="counter-item-icon"><i class="icon ion-heart"></i></div>
-                            <span>50000</span>
-                            <h4>Happy Client</h4>
                         </div>
                     </div>
                 </div>
@@ -221,6 +192,35 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Block Item-->
+                <div class="content-block-item">
+                    <div class="counter-block">
+                        <!-- Counter Block Start -->
+                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="counter-item-icon"><i class="icon ion-heart-broken"></i></div>
+                            <span>6500</span>
+                            <h4>Broken Screen</h4>
+                        </div>
+                        <!-- Counter Block Start -->
+                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="counter-item-icon"><i class="icon ion-battery-empty"></i></div>
+                            <span>15000</span>
+                            <h4>Replacement Battery</h4>
+                        </div>
+                        <!-- Counter Block Start -->
+                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="counter-item-icon"><i class="icon ion-monitor"></i></div>
+                            <span>1500</span>
+                            <h4>Working Hackintosh</h4>
+                        </div>
+                        <!-- Counter Block Start -->
+                        <div class="counter-item col-xs-12 col-sm-6 col-md-3">
+                            <div class="counter-item-icon"><i class="icon ion-heart"></i></div>
+                            <span>50000</span>
+                            <h4>Happy Client</h4>
                         </div>
                     </div>
                 </div>
