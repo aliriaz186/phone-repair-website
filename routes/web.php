@@ -22,3 +22,6 @@ Route::get('/contact-us', function () {
 Route::get('/shops', function () {
     return view('template/frontEnd/pages/shops');
 });
+Route::get('/create-products', function () {
+    return view('template/frontEnd/pages/products/create-product');
+});
