@@ -54,7 +54,7 @@
                 <div class="content-block-item">
                     <div class="appointment-block">
                         <div class="container container-custom">
-                            <h3>Wake in Repair</h3>
+                            <h3>Walk in Repair</h3>
                             <div class="row row-flex">
                                 <div class="col-xs-12 col-md-6">
                                     <form>

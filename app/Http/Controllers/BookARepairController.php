@@ -30,7 +30,13 @@ class BookARepairController extends Controller
         {
             $phoneColorData[$i]['phonesColorData'] = $phoneColorTable[$i];
             $phoneColorData[$i]['phoneInfo'] = PhoneTable::where('id', $phoneId)->first();
+            $phoneColorData[$i]['phoneProblem'] = $phoneProblem;
         }
         return view('template/frontEnd/pages/view-phone-color-list')->with(['phoneColorData' => $phoneColorData]);
+    }
+
+    public function viewSchedulePage()
+    {
+        return view('template/frontEnd/pages/schedule-repair');
     }
 }

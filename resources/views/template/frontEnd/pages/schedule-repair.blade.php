@@ -65,33 +65,39 @@
                         <div style="width: 640px!important;margin: 0 auto!important;">
                             <p class="text-center"
                                style="font-weight: bold;text-transform: none!important;font-size: x-large"><span
-                                    style="width: 35px;height: 35px;margin-right: 20px;background: #e8e8e8;border-radius: 30px;line-height: 35px;text-align: center;color: #fe636c;font-size: 17px;padding-top: 8px; padding-bottom: 8px;padding-left: 14px;padding-right: 13px;">4</span>Select
-                                Color</p>
-                            <div class="row" style="margin-top: 3%">
-                                <div class="col-md-5 offset-md-1 mr-5">
-                                    <div class="select-problem-cards"
-                                         style="text-align: center;margin-bottom: 50px;width: 100%">
-                                        <img style="height: 300px"
-                                             src="{{$phoneColorData[0]['phoneInfo']->phone_picture}}">
-                                        <p style="padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;margin-left: 20%">
-                                            {{$phoneColorData[0]['phoneInfo']->name}}</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-5" style="border-left: 2px solid #d2c7c7;">
-                                    <div style="width: 420px;margin-left: 15px;margin-bottom: 40px;">
-                                        @foreach($phoneColorData as $data)
-                                            <div class="select-problem-cards" onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/{{$data['phoneProblem']}}/phone/{{$data['phoneInfo']->company}}/{{$data['phoneInfo']->id}}/color/schedule'"
-                                                 style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                                <img style="height: 90px;margin: 4px 23px;width: 78px;"
-                                                     src="{{$data['phonesColorData']->color_svg}}">
-                                                <p style="padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                                {{$data['phonesColorData']->color_name}}
-                                            </div>
-                                        @endforeach
-                                    </div>
-                                </div>
+                                    style="width: 35px;height: 35px;margin-right: 20px;background: #e8e8e8;border-radius: 30px;line-height: 35px;text-align: center;color: #fe636c;font-size: 17px;padding-top: 8px; padding-bottom: 8px;padding-left: 14px;padding-right: 13px;">5</span>Schedule
+                                Repair</p>
+                        </div>
+                        <div class="row row-flex" style="margin-top: 3%">
+                            <div class="col-xs-12 col-md-3">
+                                <h4>Schedule Repair</h4>
+                                <p>We will be glad to meet with you at the time indicated below. In your message, we
+                                    will try to answer as soon as possible.</p>
+                                <ul>
+                                    <li>Mon - Fri: <b>9am - 6pm</b></li>
+                                    <li>Sun: <b>10am - 4pm </b></li>
+                                    <li>Sut: <b>Holiday</b></li>
+                                </ul>
                             </div>
-
+                            <div class="appointment-block-content col-xs-12 col-md-7">
+                                <form>
+                                    <div class="row row-flex">
+                                        <div class="col-xs-12 col-md-6">
+                                            <input placeholder="Your Name" name="appname" id="appname">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <input placeholder="Your Address" name="appemail" id="appemail">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <input type="date" name="datee" id="date">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <input type="time" name="time" id="time">
+                                        </div>
+                                    </div>
+                                    <button class="btn hvr-bounce-to-right" type="submit">Schedule</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -99,5 +105,30 @@
         </div>
     </div>
     <script type="text/javascript">
+        window.onload = function () {
+            let todayDate = new Date();
+            let date = todayDate.toISOString().slice(0, 10);
+            let dd = todayDate.getDate();
+            let mm = todayDate.getMonth() + 1;
+            let yyyy = todayDate.getFullYear();
+            let mint = todayDate.getMinutes();
+            let hours = todayDate.getHours();
+            if (dd < 10) {
+                dd = '0' + dd;
+            }
+            if (mm < 10) {
+                mm = '0' + mm;
+            }
+            if (mint < 10) {
+                mint = '0' + mint;
+            }
+            if (hours < 10) {
+                hours = '0' + hours;
+            }
+            let currentDate = yyyy + '-' + mm + '-' + dd;
+            let currentTime = hours + ':' + mint;
+            document.getElementById('date').value = currentDate;
+            document.getElementById('time').value = currentTime;
+        }
     </script>
 @stop
