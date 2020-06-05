@@ -12,7 +12,7 @@
                 <div class="content-header-content">
                     <h2>Book a Repair</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{env('APP_URL')}}/">Home</a></li>
                         <li><a>Book a Repair</a></li>
                     </ul>
                 </div>

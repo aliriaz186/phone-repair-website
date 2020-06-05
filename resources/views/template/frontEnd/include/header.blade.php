@@ -36,10 +36,8 @@
                     <!-- Navigation Menu -->
                     <ul class="main-header-navigation-list">
                         <!-- Navigation Dropdown Menu -->
-                        <li class="main-header-navigation-item main-header-navigation-dropdown main-header-navigation-dropdown-first">
-                            <a class="main-header-navigation-link main-header-navigation-dropdown-toggle"
-                               href="{{env('APP_URL')}}/">Home</a>
-                        </li>
+                        <li class="main-header-navigation-item"><a class="main-header-navigation-link"
+                                                                   href="{{env('APP_URL')}}/">Home</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
                                                                    href="{{env('APP_URL')}}/book-a-repair">Book a
                                 Repair</a></li>
