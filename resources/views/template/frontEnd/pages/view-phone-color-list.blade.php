@@ -1,43 +1,5 @@
 @extends('template/frontEnd/layout/layout')
 @section('content')
-    {{--{{$phonesData->id}}--}}
-    <div class="main-header-toggle btn hidden-down-xs-flex">
-        <div class="main-header-toggle-icon">
-            <div class="main-header-toggle-icon-item"></div>
-        </div>
-    </div><a class="btn btn-icon hvr-bounce-to-bottom modal-toggle" href="#"><i class="icon ion-bag"></i></a>
-    <div class="modal-wrapper">
-        <div class="modal-item">
-            <div class="modal-item-content">
-                <div class="modal-item-content-item">
-                    <div class="modal-item-content-item-wrapper">
-                        <h4>Your Cart</h4>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/a9.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Samsumg A9</a><span>175$ <span>x1</span></span></h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/RN3.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Xiaomi Redmi Note 3</a><span>105$ <span>x2</span></span>
-                                </h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                    </div>
-                    <div class="shop-cart-small-button btn-bordered-container"><a class="btn hvr-bounce-to-right"
-                                                                                  href="shop-cart.html">View Cart</a><a
-                            class="btn hvr-bounce-to-right" href="shop-checkout.html">Checkout</a></div>
-                </div>
-            </div>
-            <a class="modal-item-close btn" href="#"><span class="close-icon close-icon-accent-background"></span></a>
-        </div>
-    </div>
     <div class="content-wrapper">
         <div class="shop-page">
             <!-- Content Header-->
@@ -80,7 +42,8 @@
                                 <div class="col-md-5" style="border-left: 2px solid #d2c7c7;">
                                     <div style="width: 420px;margin-left: 15px;margin-bottom: 40px;">
                                         @foreach($phoneColorData as $data)
-                                            <div class="select-problem-cards" onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/{{$data['phoneProblem']}}/phone/{{$data['phoneInfo']->company}}/{{$data['phoneInfo']->id}}/color/schedule'"
+                                            <div class="select-problem-cards"
+                                                 onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/{{$data['phoneProblem']}}/phone/{{$data['phoneInfo']->company}}/{{$data['phoneInfo']->id}}/color/{{$data['phonesColorData']->color_name}}/schedule'"
                                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
                                                 <img style="height: 90px;margin: 4px 23px;width: 78px;"
                                                      src="{{$data['phonesColorData']->color_svg}}">
@@ -91,7 +54,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

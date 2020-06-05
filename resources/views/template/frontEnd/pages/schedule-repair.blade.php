@@ -1,43 +1,5 @@
 @extends('template/frontEnd/layout/layout')
 @section('content')
-    {{--{{$phonesData->id}}--}}
-    <div class="main-header-toggle btn hidden-down-xs-flex">
-        <div class="main-header-toggle-icon">
-            <div class="main-header-toggle-icon-item"></div>
-        </div>
-    </div><a class="btn btn-icon hvr-bounce-to-bottom modal-toggle" href="#"><i class="icon ion-bag"></i></a>
-    <div class="modal-wrapper">
-        <div class="modal-item">
-            <div class="modal-item-content">
-                <div class="modal-item-content-item">
-                    <div class="modal-item-content-item-wrapper">
-                        <h4>Your Cart</h4>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/a9.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Samsumg A9</a><span>175$ <span>x1</span></span></h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/RN3.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Xiaomi Redmi Note 3</a><span>105$ <span>x2</span></span>
-                                </h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                    </div>
-                    <div class="shop-cart-small-button btn-bordered-container"><a class="btn hvr-bounce-to-right"
-                                                                                  href="shop-cart.html">View Cart</a><a
-                            class="btn hvr-bounce-to-right" href="shop-checkout.html">Checkout</a></div>
-                </div>
-            </div>
-            <a class="modal-item-close btn" href="#"><span class="close-icon close-icon-accent-background"></span></a>
-        </div>
-    </div>
     <div class="content-wrapper">
         <div class="shop-page">
             <!-- Content Header-->
@@ -71,7 +33,8 @@
                         <div class="row row-flex" style="margin-top: 3%">
                             <div class="col-xs-12 col-md-3">
                                 <h4>Schedule Repair</h4>
-                                <p>We will be glad to meet with you at the time indicated below. In your message, we
+                                <p>We will be glad to meet with you at the time indicated below and on your given
+                                    location. By your given number, we
                                     will try to answer as soon as possible.</p>
                                 <ul>
                                     <li>Mon - Fri: <b>9am - 6pm</b></li>
@@ -80,19 +43,37 @@
                                 </ul>
                             </div>
                             <div class="appointment-block-content col-xs-12 col-md-7">
-                                <form>
+                                <form onsubmit="return checkValidations()" action="{{url("/schedule-repair/save")}}"
+                                      id="schedule-form" method="POST">
+                                    @csrf
+                                    <input hidden name="selectedProblem" id="selectedProblem"
+                                           value="{{$selectedPhoneProblem}}">
+                                    <input hidden name="selectedPhoneType" id="selectedPhoneType"
+                                           value="{{$selectedPhoneType}}">
+                                    <input hidden name="phoneId" id="phoneId" value="{{$phoneId}}">
+                                    <input hidden name="selectedPhoneColor" id="selectedPhoneColor"
+                                           value="{{$selectedPhoneColor}}">
                                     <div class="row row-flex">
                                         <div class="col-xs-12 col-md-6">
-                                            <input placeholder="Your Name" name="appname" id="appname">
+                                            <input placeholder="Your Name" name="customerName" id="customerName">
                                         </div>
                                         <div class="col-xs-12 col-md-6">
-                                            <input placeholder="Your Address" name="appemail" id="appemail">
+                                            <input placeholder="Your Address" name="customerAddress"
+                                                   id="customerAddress">
                                         </div>
                                         <div class="col-xs-12 col-md-6">
-                                            <input type="date" name="datee" id="date">
+                                            <input type="date" name="date" id="date">
                                         </div>
                                         <div class="col-xs-12 col-md-6">
                                             <input type="time" name="time" id="time">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <input placeholder="Your Location" name="customerLocation"
+                                                   id="customerLocation">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6">
+                                            <input placeholder="Your Phone Number" name="customerNumber"
+                                                   id="customerNumber">
                                         </div>
                                     </div>
                                     <button class="btn hvr-bounce-to-right" type="submit">Schedule</button>
@@ -105,6 +86,58 @@
         </div>
     </div>
     <script type="text/javascript">
+        function checkValidations() {
+            if (document.getElementById('customerName').value === '' || document.getElementById('customerName').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Customer name cannot be empty!',
+                });
+                return false;
+            }
+            if (document.getElementById('customerAddress').value === '' || document.getElementById('customerAddress').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Customer address cannot be empty!',
+                });
+                return false;
+            }
+            if (document.getElementById('date').value === '' || document.getElementById('date').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Date cannot be empty!',
+                });
+                return false;
+            }
+            if (document.getElementById('time').value === '' || document.getElementById('time').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Time cannot be empty!',
+                });
+                return false;
+            }
+            if (document.getElementById('customerLocation').value === '' || document.getElementById('customerLocation').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Customer location be empty!',
+                });
+                return false;
+            }
+            if (document.getElementById('customerNumber').value === '' || document.getElementById('customerNumber').value === null) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Customer number be empty!',
+                });
+                return false;
+            }
+            return true;
+        }
+
         window.onload = function () {
             let todayDate = new Date();
             let date = todayDate.toISOString().slice(0, 10);

@@ -33,4 +33,5 @@ Route::get('/book-a-repair/problem/{problem}', function (string $problem) {
 });
 Route::get('/book-a-repair/problem/{problem}/phone/{type}','BookARepairController@viewPhoneList');
 Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color','BookARepairController@viewPhoneWithAllColors');
-Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color/schedule','BookARepairController@viewSchedulePage');
+Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color/{colorName}/schedule','BookARepairController@viewSchedulePage');
+Route::post('/schedule-repair/save','BookARepairController@scheduleARepair');
