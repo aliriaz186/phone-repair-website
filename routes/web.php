@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'DashboardController@viewDashboard');
 Route::get('/contact-us', function () {
     return view('template/frontEnd/pages/contact');
 });
@@ -35,3 +33,4 @@ Route::get('/book-a-repair/problem/{problem}/phone/{type}','BookARepairControlle
 Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color','BookARepairController@viewPhoneWithAllColors');
 Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color/{colorName}/schedule','BookARepairController@viewSchedulePage');
 Route::post('/schedule-repair/save','BookARepairController@scheduleARepair');
+Route::get('/walk-in-repair','WalkInRepairController@viewWalkInRepairPage');

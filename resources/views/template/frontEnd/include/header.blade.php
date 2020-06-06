@@ -29,8 +29,8 @@
             <div class="main-header-content">
                 <!-- logotype -->
                 <div class="main-header-logotype-container">
-                    <!-- Your Logotype --><img src="{{ asset('images/logotype.svg') }}" alt="">
-                    <!-- Your Name --><span>RepairED</span>
+                    <!-- Your Logotype --><img src="{{ asset('images/logotype.png') }}" alt="">
+                    {{--<!-- Your Name --><span>RepairED</span>--}}
                 </div>
                 <nav class="main-header-navigation">
                     <!-- Navigation Menu -->
@@ -40,6 +40,9 @@
                                                                    href="{{env('APP_URL')}}/">Home</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
                                                                    href="{{env('APP_URL')}}/book-a-repair">Book a
+                                Repair</a></li>
+                        <li class="main-header-navigation-item"><a class="main-header-navigation-link"
+                                                                   href="{{env('APP_URL')}}/walk-in-repair">Walk in
                                 Repair</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
                                                                    href="about.html">About</a></li>

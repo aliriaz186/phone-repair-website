@@ -55,39 +55,27 @@
                     <div class="appointment-block">
                         <div class="container container-custom">
                             <h3>Walk in Repair</h3>
-                            <div class="row row-flex">
-                                <div class="col-xs-12 col-md-6">
-                                    <form>
-                                        <div class="row row-flex">
-                                            <div class="col-xs-12 col-md-6">
-                                                <input placeholder="Your Name" name="appname" id="appname">
-                                            </div>
-                                            <div class="col-xs-12 col-md-6">
-                                                <input placeholder="Your E-mail" name="appemail" id="appemail">
-                                            </div>
-                                            <div class="col-xs-12 col-md-6">
-                                                <input placeholder="Your Telephone" name="appphone" id="appphone">
-                                            </div>
-                                            <div class="col-xs-12 col-md-6">
-                                                <input placeholder="Subject" name="appsubject" id="appsubject">
-                                            </div>
-                                            <div class="col-xs-12">
-                                                <textarea placeholder="Your Problem in Detail" name="apptext"
-                                                          id="apptext"></textarea>
-                                            </div>
-                                        </div>
-                                        <button class="btn hvr-bounce-to-right" type="submit">Send</button>
-                                    </form>
-                                </div>
-                                <div class="appointment-block-content col-xs-12 col-md-6">
-                                    <h4>Schedule</h4>
-                                    <p>We will be glad to meet with you at the time indicated below. In your message, we
-                                        will try to answer as soon as possible.</p>
-                                    <ul>
-                                        <li>Mon - Fri: <b>9am - 6pm</b></li>
-                                        <li>Sun: <b>10am - 4pm </b></li>
-                                        <li>Sut: <b>Holiday</b></li>
-                                    </ul>
+                            <div style="width: 700px!important;margin: 0 auto!important;">
+                                <div class="row row-flex">
+                                    <div class="col-xs-12 col-md-7">
+                                        <h4>Store Info</h4>
+                                        <ul>
+                                            <li>Name: <b>{{$storesData->name}}</b></li>
+                                            <li>Location: <b>{{$storesData->location}}</b></li>
+                                            <li>Phone no: <b>{{$storesData->phone_no}}</b></li>
+                                            <li>Description: <b>{{$storesData->description}}</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-md-5">
+                                        <h4>Timings</h4>
+                                        <p>Store Opening and Closing Timings</p>
+                                        <ul>
+                                            <li>{{$storesData->from_day}} - {{$storesData->to_day}}:
+                                                <b>{{$storesData->from_time}}
+                                                    - {{$storesData->to_time}}</b></li>
+                                            <li>Sun: <b>Holiday</b></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
