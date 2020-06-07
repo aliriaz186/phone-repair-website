@@ -56,13 +56,16 @@
                             <div class="row row-flex">
                                 <div class="col-sm-12 col-md-6">
                                     <!-- About Block Heading -->
-                                    <h3>We're RepairED </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil voluptatum
-                                        quia molestias numquam vel beatae dicta modi eos facere? Dolorem aspernatur,
-                                        voluptatibus, ipsam neque corporis obcaecati repudiandae dignissimos
-                                        tempore.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-                                        necessitatibus facere debitis eum explicabo ea consequatur. </p>
+                                    <h3>It’s what’s inside that counts!</h3>
+                                    <p>The Genius Fix mobile workshops are a marvel in their own right, kitted out with
+                                        all the latest tools and equipment needed to repair your device to the highest
+                                        possible standard.</p>
+                                    <p>Comprehensively stocked with approved and genuine Samsung and iPhone parts, the
+                                        The Genius Fix fleet
+                                        of mobile workshops is the best in the country.</p>
+                                    <p>Complete confidence in our abilities is the name of the game and that’s why The
+                                        Genius Fix
+                                        guarantees every repair for twelve months.</p>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <!-- About Block Image--><img src="{{ asset('images/ipport2.jpg') }}" alt="">
@@ -80,48 +83,12 @@
                                 <!-- Service Icon Block Start-->
                                 <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
                                     <div class="service-icon-content">
-                                        <div class="service-icon-image"><i class="icon ion-android-desktop"></i></div>
-                                        <h4>Desktop Repair</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem
-                                            sapiente dignissimos modi earum ex culpa, aperiam repudiandae? Quo quaerat
-                                            eum ratione dignissimos similique itaque, cumque, nostrum veritatis esse
-                                            aspernatur.</p><a href="service-item.html">Read More </a>
-                                    </div>
-                                </div>
-                                <!-- Service Icon Block Start-->
-                                <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
-                                    <div class="service-icon-content">
-                                        <div class="service-icon-image"><i class="icon ion-laptop"></i></div>
-                                        <h4>Laptop Repair</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque
-                                            maxime ullam quae necessitatibus quibusdam voluptatibus aspernatur,
-                                            sapiente, cupiditate suscipit architecto nulla nihil itaque, ad et
-                                            exercitationem. Voluptatem, amet.</p><a href="service-item.html">Read
-                                            More </a>
-                                    </div>
-                                </div>
-                                <!-- Service Icon Block Start-->
-                                <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
-                                    <div class="service-icon-content">
-                                        <div class="service-icon-image"><i class="icon ion-ipad"></i></div>
-                                        <h4>Tablet Repair</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque
-                                            maxime ullam quae necessitatibus quibusdam voluptatibus aspernatur,
-                                            sapiente, cupiditate suscipit architecto nulla nihil itaque, ad et
-                                            exercitationem. Voluptatem, amet.</p><a href="service-item.html">Read
-                                            More </a>
-                                    </div>
-                                </div>
-                                <!-- Service Icon Block Start-->
-                                <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
-                                    <div class="service-icon-content">
                                         <div class="service-icon-image"><i class="icon ion-iphone"></i></div>
                                         <h4>Phone Repair</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque
-                                            maxime ullam quae necessitatibus quibusdam voluptatibus aspernatur,
-                                            sapiente, cupiditate suscipit architecto nulla nihil itaque, ad et
-                                            exercitationem. Voluptatem, amet.</p><a href="service-item.html">Read
-                                            More </a>
+                                        <p>Comprehensively stocked with approved and genuine Samsung and iPhone parts,
+                                            the
+                                            The Genius Fix fleet
+                                            of mobile workshops is the best in the country.</p>
                                     </div>
                                 </div>
                                 <!-- Service Icon Block Start-->
@@ -132,7 +99,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem
                                             sapiente dignissimos modi earum ex culpa, aperiam repudiandae? Quo quaerat
                                             eum ratione dignissimos similique itaque, cumque, nostrum veritatis esse
-                                            aspernatur.</p><a href="service-item.html">Read More </a>
+                                            aspernatur.</p>
                                     </div>
                                 </div>
                                 <!-- Service Icon Block Start-->
@@ -143,8 +110,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque
                                             maxime ullam quae necessitatibus quibusdam voluptatibus aspernatur,
                                             sapiente, cupiditate suscipit architecto nulla nihil itaque, ad et
-                                            exercitationem. Voluptatem, amet.</p><a href="service-item.html">Read
-                                            More </a>
+                                            exercitationem. Voluptatem, amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +136,7 @@
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                             <div class="counter-item-icon"><i class="icon ion-monitor"></i></div>
                             <span>1500</span>
-                            <h4>Working Hackintosh</h4>
+                            <h4>Home Button</h4>
                         </div>
                         <!-- Counter Block Start -->
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
