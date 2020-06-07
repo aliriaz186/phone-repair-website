@@ -4,38 +4,6 @@
         <div class="main-header-toggle-icon">
             <div class="main-header-toggle-icon-item"></div>
         </div>
-    </div><a class="btn btn-icon hvr-bounce-to-bottom modal-toggle" href="#"><i class="icon ion-bag"></i></a>
-    <div class="modal-wrapper">
-        <div class="modal-item">
-            <div class="modal-item-content">
-                <div class="modal-item-content-item">
-                    <div class="modal-item-content-item-wrapper">
-                        <h4>Your Cart</h4>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/a9.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Samsumg A9</a><span>175$ <span>x1</span></span></h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                        <div class="shop-cart-small-item"><a class="shop-cart-small-item-image" href="shop-item.html">
-                                <img src="images/RN3.png" alt=""></a>
-                            <div class="shop-cart-small-item-name">
-                                <h5><a href="shop-item.html">Xiaomi Redmi Note 3</a><span>105$ <span>x2</span></span>
-                                </h5>
-                            </div>
-                            <div class="shop-cart-small-item-close"><a href="#"><i
-                                        class="close-icon close-icon-small"> </i></a></div>
-                        </div>
-                    </div>
-                    <div class="shop-cart-small-button btn-bordered-container"><a class="btn hvr-bounce-to-right"
-                                                                                  href="shop-cart.html">View Cart</a><a
-                            class="btn hvr-bounce-to-right" href="shop-checkout.html">Checkout</a></div>
-                </div>
-            </div>
-            <a class="modal-item-close btn" href="#"><span class="close-icon close-icon-accent-background"></span></a>
-        </div>
     </div>
     <div class="content-wrapper">
         <div class="home-page">
@@ -53,12 +21,12 @@
             <div class="content-block">
                 <div class="content-block-item">
                     <div class="appointment-block">
-                        <div class="container container-custom">
-                            <h3>Walk in Repair</h3>
-                            <div style="width: 700px!important;margin: 0 auto!important;">
+                        <div class="container">
+                            <h3>Walk in Repair</h3><br>
+                            <div style="width: 700px!important;">
                                 <div class="row row-flex">
                                     <div class="col-xs-12 col-md-7">
-                                        <h4>Store Info</h4>
+                                        <h4 style="font-weight: bold">Store Info</h4>
                                         <ul>
                                             <li>Name: <b>{{$storesData->name}}</b></li>
                                             <li>Location: <b>{{$storesData->location}}</b></li>
@@ -67,7 +35,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-xs-12 col-md-5">
-                                        <h4>Timings</h4>
+                                        <h4 style="font-weight: bold">Timings</h4>
                                         <p>Store Opening and Closing Timings</p>
                                         <ul>
                                             <li>{{$storesData->from_day}} - {{$storesData->to_day}}:

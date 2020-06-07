@@ -17,9 +17,9 @@ Route::get('/', 'DashboardController@viewDashboard');
 Route::get('/contact-us', function () {
     return view('template/frontEnd/pages/contact');
 });
-Route::get('/shops', function () {
-    return view('template/frontEnd/pages/shops');
-});
+//Route::get('/shops', function () {
+//    return view('template/frontEnd/pages/shops');
+//});
 Route::get('/create-products', function () {
     return view('template/frontEnd/pages/products/create-product');
 });
@@ -34,3 +34,6 @@ Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color','Book
 Route::get('/book-a-repair/problem/{problem}/phone/{type}/{phoneId}/color/{colorName}/schedule','BookARepairController@viewSchedulePage');
 Route::post('/schedule-repair/save','BookARepairController@scheduleARepair');
 Route::get('/walk-in-repair','WalkInRepairController@viewWalkInRepairPage');
+Route::post('/product/save','ProductController@store');
+Route::get('/shops','ProductController@shop');
+Route::get('/shops-details/{id}','ProductController@shopDetails');

@@ -51,7 +51,7 @@
                                 class="main-header-navigation-link" href="{{URL::to('')}}/shops">Shop</a>
                         </li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
-                                                                   href="contact.html">Contact Us </a></li>
+                                                                   href="{{URL::to('')}}/contact-us">Contact Us </a></li>
                     </ul>
                 </nav>
             </div>
