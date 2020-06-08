@@ -16,9 +16,9 @@
                 <div class="content-header-content">
                     <h2>Shop</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop-list.html">Shop</a></li>
-                        <li><a href="shop-item.html">Shop Item</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/shops">Shop</a></li>
+                        <li><a href="#">Shop Item</a></li>
                     </ul>
                 </div>
             </header>

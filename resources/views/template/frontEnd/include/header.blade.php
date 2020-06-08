@@ -9,7 +9,7 @@
     <!-- IE  -->
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <!-- Title-->
-    <title>RepairED | Home</title>
+    <title>THEGFIX | Home</title>
     <!-- Viewport (Need to responsive) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Framework/libraries/Plugins/style CSS-->

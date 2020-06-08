@@ -21,30 +21,35 @@
             <div class="content-block">
                 <div class="content-block-item">
                     <div class="appointment-block">
-                        <div class="container">
-                            <h3>Walk in Repair</h3><br>
-                            <div style="width: 700px!important;">
-                                <div class="row row-flex">
-                                    <div class="col-xs-12 col-md-7">
-                                        <h4 style="font-weight: bold">Store Info</h4>
-                                        <ul>
-                                            <li>Name: <b>{{$storesData->name}}</b></li>
-                                            <li>Location: <b>{{$storesData->location}}</b></li>
-                                            <li>Phone no: <b>{{$storesData->phone_no}}</b></li>
-                                            <li>Description: <b>{{$storesData->description}}</b></li>
-                                        </ul>
+                        <div class="container  container-custom">
+                            <h3>Walk in Repair</h3>
+                            <div style="width: 700px!important;!important;margin: 0 auto!important;">
+                                @if(!empty($storesData))
+                                    <div class="row row-flex">
+                                        <div class="col-xs-12 col-md-7">
+                                            <h4>Store Info</h4>
+                                            <ul>
+                                                <li>Name: <b>{{$storesData->name}}</b></li>
+                                                <li>Location: <b>{{$storesData->location}}</b></li>
+                                                <li>Phone no: <b>{{$storesData->phone_no}}</b></li>
+                                                <li>Description: <b>{{$storesData->description}}</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-xs-12 col-md-5">
+                                            <h4>Timings</h4>
+                                            <p>Store Opening and Closing Timings</p>
+                                            <ul>
+                                                <li>{{$storesData->from_day}} - {{$storesData->to_day}}:
+                                                    <b>{{$storesData->from_time}}
+                                                        - {{$storesData->to_time}}</b></li>
+                                                <li>Sun: <b>Holiday</b></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="col-xs-12 col-md-5">
-                                        <h4 style="font-weight: bold">Timings</h4>
-                                        <p>Store Opening and Closing Timings</p>
-                                        <ul>
-                                            <li>{{$storesData->from_day}} - {{$storesData->to_day}}:
-                                                <b>{{$storesData->from_time}}
-                                                    - {{$storesData->to_time}}</b></li>
-                                            <li>Sun: <b>Holiday</b></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                @else
+                                   <div>OOPS, No Stores Found</div>
+                                @endif
+
                             </div>
                         </div>
                     </div>

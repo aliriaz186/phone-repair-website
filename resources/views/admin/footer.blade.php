@@ -23,7 +23,7 @@
                 </form>
             </div>
         </div>
-        <div class="footer-sub-footer"><span>© 2020 Designed by Jsys <i class="fas fa-heart"></i></span></div>
+        <div class="footer-sub-footer"><span>© 2020 Designed by Jsys  <i class="fas fa-heart"></i></span></div>
     </div>
 </footer>
 </div>

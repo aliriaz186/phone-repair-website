@@ -37,3 +37,19 @@ Route::get('/walk-in-repair','WalkInRepairController@viewWalkInRepairPage');
 Route::post('/product/save','ProductController@store');
 Route::get('/shops','ProductController@shop');
 Route::get('/shops-details/{id}','ProductController@shopDetails');
+
+//admin routes
+Route::get('/admin','AdminController@getLoginView');
+Route::post('/admin/login','AdminController@login');
+Route::get('/admin-dashboard','AdminController@dashboard')->middleware('CheckAuth');
+Route::get('/bookings','AdminController@bookings')->middleware('CheckAuth');
+Route::get('/bookings/{id}','AdminController@bookingDetails')->middleware('CheckAuth');
+Route::post('/bookings/status/update','AdminController@updateStatus');
+Route::get('/stores','AdminController@getStores')->middleware('CheckAuth');
+Route::get('/products','AdminController@getProducts')->middleware('CheckAuth');
+Route::get('/store/new','AdminController@newStore');
+Route::get('/product/new','AdminController@newProduct');
+Route::post('/store/save','AdminController@saveStore');
+Route::get('/store/{id}/delete','AdminController@deleteStore');
+Route::get('/product/{id}/delete','AdminController@deleteProduct');
+Route::get('/logout','AdminController@logout');

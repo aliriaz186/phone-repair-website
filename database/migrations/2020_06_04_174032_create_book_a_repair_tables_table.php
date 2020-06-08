@@ -25,6 +25,7 @@ class CreateBookARepairTablesTable extends Migration
             $table->string('time');
             $table->string('customer_location');
             $table->string('customer_number');
+            $table->string('status')->default('pending');
             $table->timestamps();
         });
     }

@@ -26,7 +26,7 @@ class ProductController extends Controller
         $product->description=$request->productDescription;
          $result=$product->save();
          if ($result){
-             return redirect('shops');
+             return redirect('/products');
          }
          else{
              return json_encode("server error");

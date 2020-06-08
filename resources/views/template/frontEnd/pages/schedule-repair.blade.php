@@ -36,11 +36,6 @@
                                 <p>We will be glad to meet with you at the time indicated below and on your given
                                     location. By your given number, we
                                     will try to answer as soon as possible.</p>
-                                <ul>
-                                    <li>Mon - Fri: <b>9am - 6pm</b></li>
-                                    <li>Sun: <b>10am - 4pm </b></li>
-                                    <li>Sut: <b>Holiday</b></li>
-                                </ul>
                             </div>
                             <div class="appointment-block-content col-xs-12 col-md-7">
                                 <form onsubmit="return checkValidations()" action="{{url("/schedule-repair/save")}}"

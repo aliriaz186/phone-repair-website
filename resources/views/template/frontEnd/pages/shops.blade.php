@@ -15,8 +15,8 @@
                 <div class="content-header-content">
                     <h2>Shop</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop-list.html">Shop</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/shops">Shop</a></li>
                     </ul>
                 </div>
             </header>
@@ -40,12 +40,13 @@
                                             @endif
                                         </div>
                                         <h5 class="col-xs-8">{{$product->name}}</h5><span class="col-xs-4">{{$product->price}}$</span>/
-                                        <div class="shop-item-content-controls col-xs-12"><a class="btn hvr-bounce-to-right btn-sm" href="shop-list.html">Buy </a><a class="btn hvr-bounce-to-right btn-sm" href="{{url("/shops-details")}}/{{$product->id}}">Read More </a></div>
+                                        <div class="shop-item-content-controls col-xs-12"><a class="btn hvr-bounce-to-right btn-sm" href="{{url("/shops-details")}}/{{$product->id}}">Buy </a><a class="btn hvr-bounce-to-right btn-sm" href="{{url("/shops-details")}}/{{$product->id}}">Read More </a></div>
                                     </div>
                                 </div>
                                 @endforeach
                             </div>
-                                <!-- Grid Shop Item Block Start--><div class="pagination-list"><a class="btn btn-small hvr-bounce-to-right" href="#">1</a><a class="btn btn-small hvr-bounce-to-right" href="#">2</a><a class="btn btn-small hvr-bounce-to-right" href="#">3</a><a class="btn btn-small hvr-bounce-to-right" href="#">></a></div>
+                                <!-- Grid Shop Item Block Start-->
+                            {{--<div class="pagination-list"><a class="btn btn-small hvr-bounce-to-right" href="#">1</a><a class="btn btn-small hvr-bounce-to-right" href="#">2</a><a class="btn btn-small hvr-bounce-to-right" href="#">3</a><a class="btn btn-small hvr-bounce-to-right" href="#">></a></div>--}}
                         </div>
                         </div>
                     </div>
