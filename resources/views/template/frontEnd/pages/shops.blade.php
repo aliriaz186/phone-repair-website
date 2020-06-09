@@ -34,12 +34,12 @@
                                     <div class="shop-item-content">
                                         <div class="shop-item-content-image col-xs-12">
                                             @if(!empty($product->image))
-                                                <img src="{{ asset('images/products/' . $product->image) }}">
+                                                <img src="{{ asset('/public/images/products/' . $product->image) }}">
                                             @else
                                                 <img src="{{URL::to('')}}/images/RN3.png">
                                             @endif
                                         </div>
-                                        <h5 class="col-xs-8">{{$product->name}}</h5><span class="col-xs-4">{{$product->price}}$</span>/
+                                        <h5 class="col-xs-8">{{$product->name}}</h5><span class="col-xs-4">{{$product->price}}$</span>
                                         <div class="shop-item-content-controls col-xs-12"><a class="btn hvr-bounce-to-right btn-sm" href="{{url("/shops-details")}}/{{$product->id}}">Buy </a><a class="btn hvr-bounce-to-right btn-sm" href="{{url("/shops-details")}}/{{$product->id}}">Read More </a></div>
                                     </div>
                                 </div>

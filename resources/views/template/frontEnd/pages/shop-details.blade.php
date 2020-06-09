@@ -31,7 +31,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-9 clearfix">
                             <div class="shop-item-block">
                                 <div class="row row-flex">
-                                    <div class="shop-item-block-image col-xs-12 col-lg-4"> <img src="{{ asset('images/products/' . $products->image) }}">
+                                    <div class="shop-item-block-image col-xs-12 col-lg-4"> <img src="{{ asset('/public/images/products/' . $products->image) }}">
                                     </div>
                                     <div class="shop-item-block-content col-xs-12 col-lg-8">
                                         <div class="shop-item-block-content-heading">
