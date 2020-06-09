@@ -45,34 +45,34 @@
                                                                    href="{{env('APP_URL')}}/walk-in-repair">Walk in
                                 Repair</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
-                                                                   href="about.html">About</a></li>
+                                                                   href="#">About</a></li>
                         <!-- Navigation Dropdown Menu -->
                         <li class="main-header-navigation-item main-header-navigation-dropdown"><a
                                 class="main-header-navigation-link" href="{{URL::to('')}}/shops">Shop</a>
                         </li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
-                                                                   href="{{URL::to('')}}/contact-us">Contact Us </a></li>
+                                                                   href="#">Contact Us </a></li>
                     </ul>
                 </nav>
             </div>
             <!-- Main-header Social Link and part of info -->
             <div class="main-header-subcontent-container">
                 <!-- Social list -->
-                <ul class="main-header-social-list">
-                    <!-- Social Item -->
-                    <li class="main-header-social-item">
-                        <!-- Social Link --><a class="main-header-social-link" href="#">
-                            <!-- Social Icon --><i class="icon ion-social-twitter"></i></a>
-                    </li>
-                    <li class="main-header-social-item"><a class="main-header-social-link" href="#"><i
-                                class="icon ion-social-facebook"></i></a></li>
-                    <li class="main-header-social-item"><a class="main-header-social-link" href="#"><i
-                                class="icon ion-social-github"></i></a></li>
-                    <li class="main-header-social-item"><a class="main-header-social-link" href="#"><i
-                                class="icon ion-social-pinterest"> </i></a></li>
-                    <li class="main-header-social-item"><a class="main-header-social-link" href="#"><i
-                                class="icon ion-social-linkedin"> </i></a></li>
-                </ul>
+                {{--<ul class="main-header-social-list">--}}
+                    {{--<!-- Social Item -->--}}
+                    {{--<li class="main-header-social-item">--}}
+                        {{--<!-- Social Link --><a class="main-header-social-link" href="#">--}}
+                            {{--<!-- Social Icon --><i class="icon ion-social-twitter"></i></a>--}}
+                    {{--</li>--}}
+                    {{--<li class="main-header-social-item"><a class="main-header-social-link" href="#"><i--}}
+                                {{--class="icon ion-social-facebook"></i></a></li>--}}
+                    {{--<li class="main-header-social-item"><a class="main-header-social-link" href="#"><i--}}
+                                {{--class="icon ion-social-github"></i></a></li>--}}
+                    {{--<li class="main-header-social-item"><a class="main-header-social-link" href="#"><i--}}
+                                {{--class="icon ion-social-pinterest"> </i></a></li>--}}
+                    {{--<li class="main-header-social-item"><a class="main-header-social-link" href="#"><i--}}
+                                {{--class="icon ion-social-linkedin"> </i></a></li>--}}
+                {{--</ul>--}}
             </div>
         </header>
     </div>

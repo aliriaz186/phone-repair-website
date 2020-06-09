@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Admin;
 use App\BookARepairTable;
+use App\PhoneColorTable;
 use App\PhoneTable;
 use App\Product;
 use App\StoresTable;
@@ -85,6 +86,16 @@ class AdminController extends Controller
         return redirect('/stores');
     }
 
+    public function savePhone(Request $request){
+        $phone = new PhoneTable();
+        $phone->name = $request->name;
+        $phone->company = $request->company;
+        $phone->phone_svg = $request->svg;
+        $phone->phone_picture = $request->picture;
+        $phone->save();
+        return redirect('/phones');
+    }
+
     public function deleteStore($id){
         $store = StoresTable::where('id', $id)->first();
         $store->delete();
@@ -100,5 +111,27 @@ class AdminController extends Controller
     public function logout(){
         Session::flush();
         return redirect('/');
+    }
+
+    public function getPhones(){
+        $phones = PhoneTable::all();
+        return view('admin.mobiles')->with(['phones' => $phones]);
+    }
+
+    public function addColorView($id){
+        return view('admin.add-color')->with(['phoneId' => $id]);
+    }
+
+    public function addNewColor(Request $request){
+        $color = new PhoneColorTable();
+        $color->color_name = $request->name;
+        $color->color_svg = $request->svg;
+        $color->phone_id = $request->phone_id;
+        $color->save();
+        return redirect('/phones');
+    }
+
+    public function addPhoneView(){
+        return view('admin.add-phone');
     }
 }
