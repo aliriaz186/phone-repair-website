@@ -1,3 +1,3 @@
-@include('template/frontend/include/header')
+@include('template/frontEnd/include/header')
 @yield('content')
-@include('template/frontend/include/footer')
+@include('template/frontEnd/include/footer')
