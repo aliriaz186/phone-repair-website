@@ -34,7 +34,7 @@
                                     <div class="shop-item-content">
                                         <div class="shop-item-content-image col-xs-12">
                                             @if(!empty($product->image))
-                                                <img src="{{ asset('/public/images/products/' . $product->image) }}">
+                                                <img src="{{ asset('/images/products/' . $product->image) }}">
                                             @else
                                                 <img src="{{URL::to('')}}/images/RN3.png">
                                             @endif

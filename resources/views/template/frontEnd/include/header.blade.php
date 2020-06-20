@@ -45,13 +45,19 @@
                                                                    href="{{env('APP_URL')}}/walk-in-repair">Walk in
                                 Repair</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
-                                                                   href="#">About</a></li>
+                                                                   href="{{URL::to('')}}/about">About</a></li>
                         <!-- Navigation Dropdown Menu -->
                         <li class="main-header-navigation-item main-header-navigation-dropdown"><a
                                 class="main-header-navigation-link" href="{{URL::to('')}}/shops">Shop</a>
                         </li>
+                        <li class="main-header-navigation-item main-header-navigation-dropdown"><a
+                                    class="main-header-navigation-link" href="{{URL::to('')}}/show-blogs">Blogs</a>
+                        </li>
+                        <li class="main-header-navigation-item main-header-navigation-dropdown"><a
+                                    class="main-header-navigation-link" href="{{URL::to('')}}/show-repair-videos">Repair Videos</a>
+                        </li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link"
-                                                                   href="#">Contact Us </a></li>
+                                                                   href="{{URL::to('')}}/contact-us">Contact Us </a></li>
                     </ul>
                 </nav>
             </div>

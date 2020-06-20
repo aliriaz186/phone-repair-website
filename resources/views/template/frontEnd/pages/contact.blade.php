@@ -1,153 +1,192 @@
 @extends('template/frontEnd/layout/layout')
 @section('content')
-<!--  PAGE HEADING -->
+    <!--  PAGE HEADING -->
 
-<section class="page-header">
+    <section class="page-header">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
+            <div class="row">
 
-            <div class="col-sm-12 text-center">
-
-
-                <h3>
-                    Contact Us
-                </h3>
-
-                <p class="page-breadcrumb">
-                    <a href="#">Home</a> / Contact
-                </p>
+                <div class="col-sm-12 text-center">
 
 
-            </div>
+                    <h3>
+                        Contact Us
+                    </h3>
 
-        </div> <!-- end .row  -->
-
-    </div> <!-- end .container  -->
-
-</section> <!-- end .page-header  -->
+                    <p class="page-breadcrumb">
+                        <a href="#">Home</a> / Contact
+                    </p>
 
 
-<section class="section-content-block section-contact-block">
+                </div>
 
-    <div class="container">
+            </div> <!-- end .row  -->
 
-        <div class="row">
+        </div> <!-- end .container  -->
 
-            <div class="col-sm-6 wow fadeInLeft">
+    </section> <!-- end .page-header  -->
 
-                <div class="contact-form-block">
 
-                    <h2 class="contact-title">Say hello to us</h2>
+    <section class="section-content-block section-contact-block">
 
-                    <form role="form" action="#" method="post" id="contact-form">
+        <div class="container">
 
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="user_name" name="user_name" placeholder="Name" data-msg="Please Write Your Name" />
-                        </div>
+            <div class="row">
 
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="user_email" name="user_email" placeholder="Email" data-msg="Please Write Your Valid Email" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="email_subject" name="email_subject" placeholder="Subject" data-msg="Please Write Your Message Subject" />
-                        </div>
+                <div class="col-sm-6 wow fadeInLeft">
 
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" name="email_message" id="email_message" placeholder="Message" data-msg="Please Write Your Message" ></textarea>
-                        </div>
+                    <div class="contact-form-block">
 
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-custom">Send Now</button>
-                        </div>
+                        <h2 class="contact-title">Say hello to us</h2>
 
-                    </form>
+                        <form role="form" onsubmit="return checkContactValidations()" action="{{url("/message/send")}}" method="post">
+                            @csrf
 
-                </div> <!-- end .contact-form-block  -->
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="user_name" name="name" placeholder="Name"
+                                       data-msg="Please Write Your Name"/>
+                            </div>
 
-            </div> <!--  end col-sm-6  -->
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="user_email" name="email"
+                                       placeholder="Email" data-msg="Please Write Your Valid Email"/>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" name="message" id="email_message"
+                                          placeholder="Message" data-msg="Please Write Your Message"></textarea>
+                            </div>
 
-            {{--<div class="col-sm-6 wow fadeInRight">--}}
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-custom">Send Now</button>
+                            </div>
+                            <div style="margin-top: 5px!important;">
+                                @if ($errors->any())
+                                    <div class="alert alert-warning">
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
+                            </div>
+                        </form>
+
+                    </div> <!-- end .contact-form-block  -->
+
+                </div> <!--  end col-sm-6  -->
+
+                {{--<div class="col-sm-6 wow fadeInRight">--}}
 
                 {{--<h2 class="contact-title">Our Location</h2>--}}
 
 
                 {{--<div class="section-google-map-block wow fadeInUp">--}}
 
-                    {{--<div id="map_canvas"></div>--}}
+                {{--<div id="map_canvas"></div>--}}
 
                 {{--</div> <!-- end .section-content-block  -->--}}
 
-            {{--</div> <!--  end col-sm-6  -->--}}
+                {{--</div> <!--  end col-sm-6  -->--}}
 
-        </div> <!-- end row  -->
+            </div> <!-- end row  -->
 
-    </div> <!--  end .container -->
+        </div> <!--  end .container -->
 
-</section> <!-- end .section-content-block  -->
+    </section> <!-- end .section-content-block  -->
 
 
-<!--  MAIN CONTENT  -->
+    <!--  MAIN CONTENT  -->
 
-<section class="section-content-block section-contact-block">
+    <section class="section-content-block section-contact-block">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
+            <div class="row">
 
-            <div class ="col-md-12">
-                <h2 class="contact-title">Contact us</h2>
-            </div>
+                <div class="col-md-12">
+                    <h2 class="contact-title">Contact us</h2>
+                </div>
 
-            <div class="col-md-3">
+                <div class="col-md-3">
 
-                <ul class="contact-info">
-                    <li>
-                        <span class="icon-container"><i class="fa fa-home"></i></span>
-                        <address>3100 C/A Mouchak,Sylhet,UK</address>
-                    </li>
-                </ul>
+                    <ul class="contact-info">
+                        <li>
+                            <span class="icon-container"><i class="fa fa-home"></i></span>
+                            <address>3100 C/A Mouchak,Sylhet,UK</address>
+                        </li>
+                    </ul>
 
-            </div>
+                </div>
 
-            <div class="col-md-3">
+                <div class="col-md-3">
 
-                <ul class="contact-info">
+                    <ul class="contact-info">
 
-                    <li>
-                        <span class="icon-container"><i class="fa fa-phone"></i></span>
-                        <address><a href="#">+093-120-525-9162</a></address>
-                    </li>
+                        <li>
+                            <span class="icon-container"><i class="fa fa-phone"></i></span>
+                            <address><a href="#">+093-120-525-9162</a></address>
+                        </li>
 
-                </ul>
+                    </ul>
 
-            </div>
+                </div>
 
-            <div class="col-md-3">
-                <ul class="contact-info">
-                    <li>
-                        <span class="icon-container"><i class="fa fa-envelope"></i></span>
-                        <address><a href="mailto:">query@yourdomain.com</a></address>
-                    </li>
-                </ul>
+                <div class="col-md-3">
+                    <ul class="contact-info">
+                        <li>
+                            <span class="icon-container"><i class="fa fa-envelope"></i></span>
+                            <address><a href="mailto:">query@yourdomain.com</a></address>
+                        </li>
+                    </ul>
 
-            </div>
+                </div>
 
-            <div class="col-md-3">
+                <div class="col-md-3">
 
-                <ul class="contact-info">
-                    <li>
-                        <span class="icon-container"><i class="fa fa-globe"></i></span>
-                        <address><a href="#">www.yourdomain.com</a></address>
-                    </li>
-                </ul>
+                    <ul class="contact-info">
+                        <li>
+                            <span class="icon-container"><i class="fa fa-globe"></i></span>
+                            <address><a href="#">www.yourdomain.com</a></address>
+                        </li>
+                    </ul>
+
+                </div>
 
             </div>
 
         </div>
+        <script type="text/javascript">
+            function checkContactValidations() {
+                if (document.getElementById('user_name').value === '' || document.getElementById('user_name').value === null) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Name cannot be empty!',
+                    });
+                    return false;
+                }
+                if (document.getElementById('user_email').value === '' || document.getElementById('user_email').value === null) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Email cannot be empty!',
+                    });
+                    return false;
+                }
+                if (document.getElementById('email_message').value === '' || document.getElementById('email_message').value === null) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Message cannot be empty!',
+                    });
+                    return false;
+                }
+                return true;
+            }
+        </script>
 
-    </div>
-
-</section>
+    </section>
 @stop
