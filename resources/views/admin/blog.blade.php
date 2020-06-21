@@ -28,7 +28,7 @@
                                             {{$key+1}}
                                         </td>
                                         <td>
-                                            <img src="{{asset('/images/blogs/')}}/{{$blogs->image}}" style="width: 60px; height: 60px">
+                                            <img src="{{asset('/public/images/blogs/')}}/{{$blogs->image}}" style="width: 60px; height: 60px">
                                         </td>
                                         <td>
                                             {{$blogs->title}}

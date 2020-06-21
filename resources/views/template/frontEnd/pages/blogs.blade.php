@@ -35,7 +35,7 @@
                                         <!-- Blog Card Image-->
                                         <div class="blog-item-content-image col-xs-12">
                                             @if(!empty($blog->image))
-                                                <img src="{{ asset('/images/blogs/' . $blog->image) }}">
+                                                <img src="{{ asset('/public/images/blogs/' . $blog->image) }}">
                                             @else
                                                 <img src="{{URL::to('')}}/images/RN3.png">
                                             @endif
@@ -45,7 +45,6 @@
                                         <div class="blog-item-content-heading col-xs-12">
                                             <!-- Blog Card Heading--><a href="#">{{$blog->title}}</a>
                                             <!-- Blog Card Info-->
-                                            <div class="blog-item-content-heading-info col-xs-12"> <a href="blog-list.html">1 January 2017</a><a href="blog-list.html">Desktop </a></div>
                                         </div>
                                         <!-- Blog Card Content Wrapper -->
                                         <div class="blog-item-content-description col-xs-12">

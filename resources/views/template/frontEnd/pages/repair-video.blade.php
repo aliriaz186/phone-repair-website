@@ -35,7 +35,7 @@
                                             <!-- Blog Card Image-->
                                             <div class="blog-item-content-image col-xs-12">
                                                 @if(!empty($videos->video))
-                                                    <video src="{{ asset('/images/videos/' . $videos->video) }}" controls style="width: 400px;height: 250px!important;border: none!important;">
+                                                    <video src="{{ asset('/public/images/videos/' . $videos->video) }}" controls style="width: 400px;height: 250px!important;border: none!important;">
                                                     </video>
                                                 @else
                                                     <img src="{{URL::to('')}}/images/RN3.png">

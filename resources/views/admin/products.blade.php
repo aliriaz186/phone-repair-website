@@ -29,7 +29,7 @@
                                             {{$key+1}}
                                         </td>
                                         <td>
-                                            <img src="{{asset('/images/products/')}}/{{$product->image}}" style="width: 60px; height: 60px">
+                                            <img src="{{asset('/public/images/products/')}}/{{$product->image}}" style="width: 60px; height: 60px">
                                         </td>
                                         <td>
                                             {{$product->name}}
