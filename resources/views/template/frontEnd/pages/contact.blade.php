@@ -59,7 +59,7 @@
                             </div>
 
                             <div class="form-group">
-                                <button type="submit" class="btn btn-custom">Send Now</button>
+                                <button type="submit" class="btn btn-custom" style="background: black; color: white">Send Now</button>
                             </div>
                             <div style="margin-top: 5px!important;">
                                 @if ($errors->any())
