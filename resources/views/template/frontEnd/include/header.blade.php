@@ -29,7 +29,7 @@
             <div class="main-header-content">
                 <!-- logotype -->
                 <div class="main-header-logotype-container">
-                    <!-- Your Logotype --><img src="{{ asset('images/logotype.jpg') }}" alt="">
+                    <!-- Your Logotype --><img src="{{ asset('images/logottype.png') }}" alt="">
                     {{--<!-- Your Name --><span>RepairED</span>--}}
                 </div>
                 <nav class="main-header-navigation">

@@ -47,7 +47,7 @@
                                         </div>
                                     </div>
                                 @else
-                                   <div>OOPS, No Stores Found</div>
+                                    <div>OOPS, No Stores Found</div>
                                 @endif
 
                             </div>
@@ -61,16 +61,13 @@
                             <div class="row row-flex">
                                 <div class="col-sm-12 col-md-6">
                                     <!-- About Block Heading -->
-                                    <h3>It’s what’s inside that counts!</h3>
-                                    <p>The Genius Fix mobile workshops are a marvel in their own right, kitted out with
-                                        all the latest tools and equipment needed to repair your device to the highest
-                                        possible standard.</p>
-                                    <p>Comprehensively stocked with approved and genuine Samsung and iPhone parts, the
-                                        The Genius Fix fleet
-                                        of mobile workshops is the best in the country.</p>
-                                    <p>Complete confidence in our abilities is the name of the game and that’s why The
-                                        Genius Fix
-                                        guarantees every repair for twelve months.</p>
+                                    <h3>GET THE BEST PARTS FOR YOUR PHONE</h3>
+                                    <p>For every phone, its what inside that counts, therefore, with our mobile phone
+                                        repair services, you get the best and genuine parts for your phone easily.</p>
+                                    <p> We are specialists in iPhone and Samsung repairs, so all your mobile phone
+                                        worries
+                                        can take a back seat because with The Genius Fix, you know hand over your phone
+                                        to the best repair experts.</p>
                                 </div>
                                 <div class="col-sm-12 col-md-6">
                                     <!-- About Block Image--><img src="{{ asset('images/ipport2.jpg') }}" alt="">
@@ -90,32 +87,28 @@
                                     <div class="service-icon-content">
                                         <div class="service-icon-image"><i class="icon ion-iphone"></i></div>
                                         <h4>Phone Repair</h4>
-                                        <p>Comprehensively stocked with approved and genuine Samsung and iPhone parts,
-                                            the
-                                            The Genius Fix fleet
-                                            of mobile workshops is the best in the country.</p>
+                                        <p>Our experts can fix your phone within no time, be it any issues like charge
+                                            problems, battery issues, crashed system, button replacement and the best
+                                            part is that they come to you. </p>
                                     </div>
                                 </div>
                                 <!-- Service Icon Block Start-->
                                 <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
                                     <div class="service-icon-content">
                                         <div class="service-icon-image"><i class="icon ion-gear-b"></i></div>
-                                        <h4>Selling Details</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem
-                                            sapiente dignissimos modi earum ex culpa, aperiam repudiandae? Quo quaerat
-                                            eum ratione dignissimos similique itaque, cumque, nostrum veritatis esse
-                                            aspernatur.</p>
+                                        <h4>Assistance in Buying Gadgets</h4>
+                                        <p>Before purchasing any gadget, it is highly recommended to take suggestions
+                                            from experts. At The Genius Fix, we offer you our assistance in buying any
+                                            gadget, from mobile phones, to laptops and tablets. </p>
                                     </div>
                                 </div>
                                 <!-- Service Icon Block Start-->
                                 <div class="service-icon-container col-xs-12 col-sm-6 col-md-4">
                                     <div class="service-icon-content">
                                         <div class="service-icon-image"><i class="icon ion-ios-loop"></i></div>
-                                        <h4>Buy Your Gadgets</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque
-                                            maxime ullam quae necessitatibus quibusdam voluptatibus aspernatur,
-                                            sapiente, cupiditate suscipit architecto nulla nihil itaque, ad et
-                                            exercitationem. Voluptatem, amet.</p>
+                                        <h4>Sell Your Phone</h4>
+                                        <p>If you no longer need your old phone, you can easily sell it to us with just
+                                            one visit. We assure good re-sell price as well. </p>
                                     </div>
                                 </div>
                             </div>
