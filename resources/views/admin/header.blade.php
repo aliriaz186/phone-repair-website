@@ -42,6 +42,7 @@
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/admin/about">About</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/admin/blog">Blogs</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/repair/videos">Repair Videos</a></li>
+                        <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/change-credentials">Change Credentials</a></li>
                         <li class="main-header-navigation-item"><a class="main-header-navigation-link" href="{{env('APP_URL')}}/logout">Logout</a></li>
                     </ul>
                 </nav>

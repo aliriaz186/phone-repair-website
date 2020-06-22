@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\AboutUsTable;
+use App\Admin;
 use App\BlogTable;
 use App\NewsLetterTable;
 use App\RapairVideoTable;
 use App\StoresTable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Session;
 
 class DashboardController extends Controller
 {
@@ -67,5 +70,26 @@ class DashboardController extends Controller
     {
         $video = RapairVideoTable::all();
         return view('template/frontEnd/pages/repair-video')->with(['video' => $video]);
+    }
+
+    public function changeCredentialView()
+    {
+        if (empty(Session::get('isAdmin'))){
+            return redirect('/admin');
+        }
+        $credentials = Admin::where([['id', '>', 0]])->first();
+        return view('admin.change-password')->with(['credentials' => $credentials]);
+    }
+
+    public function changeCredentials(Request $request)
+    {
+        if (empty(Session::get('isAdmin'))){
+            return redirect('/admin');
+        }
+        $admin = Admin::where([['id', '>', 0]])->first();
+        $admin->email = $request->email;
+        $admin->password = $request->password;
+        $admin->update();
+        return redirect()->back()->withErrors("Credentials updated successfully");
     }
 }

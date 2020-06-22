@@ -74,3 +74,5 @@ Route::get('video/new','AdminController@addVideo');
 Route::post('video/save','AdminController@saveVideo');
 Route::get('video/{id}/delete','AdminController@deleteVideo');
 Route::get('show-repair-videos','DashboardController@showRepairVideos');
+Route::get('change-credentials','DashboardController@changeCredentialView');
+Route::post('change-admin-credentials','DashboardController@changeCredentials');
