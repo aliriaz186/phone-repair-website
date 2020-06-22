@@ -32,194 +32,155 @@
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/phone-screen'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/screen.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Phone Screen
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/phonescreen.png') }}">
+{{--                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">--}}
+{{--                                    Phone Screen--}}
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/home-button'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/home-button.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Home Button
+                                <img style="height: 114px;margin: 12px 16px;width: 97px;"
+                                     src="{{ asset('images/homebutton.png') }}">
+{{--                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">--}}
+{{--                                    Home Button--}}
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/battery'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/battery.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Battery
+                                <img style="height: 114px;margin: 12px 25px;width: 59px;"
+                                     src="{{ asset('images/battery.png') }}">
+{{--                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">--}}
+{{--                                    Battery--}}
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/power-button'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/power-button.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Power Button
+                                <img style="height: 114px;margin: 12px 16px;width: 95px;"
+                                     src="{{ asset('images/powerbutton.png') }}">
+{{--                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">--}}
+{{--                                    Power Button--}}
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/microphone'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/microphone.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Microphone
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/microphone.png') }}">
+{{--                                    Microphone--}}
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/headphone-jack'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/headphone-jack.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Headphone jack
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/headphonejack.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/ear-speaker'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/ear-speaker.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Ear Speaker
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/earspeaker.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/volume-buttons'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/volume-buttons.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Volume Buttons
+                                <img style="height: 114px;margin: 12px 19px;width: 91px;"
+                                     src="{{ asset('images/volumebuttons.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/mute-buttons'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/mute-button.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Mute Button
+                                <img style="height: 114px;margin: 12px 20px;width: 91px;"
+                                     src="{{ asset('images/mutebutton.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/front-camera'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/front-camera.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Front Camera
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/frontcamera.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/rear-camera'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/rear-camera.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Rear Camera
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/rearcamera.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/vibrator'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/vibrator.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Vibrator
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/vibrator.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/back-housing'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/back-housing.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Back Housing
+                                <img style="height: 114px;margin: 12px 19px;width: 87px;"
+                                     src="{{ asset('images/backhousing.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/loud-speaker'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/loud-speaker.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Loud Speaker
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/loudspeaker.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/tablet-glass'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/glass.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Tablet Glass
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/tabletglass.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/tablet-lcd'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/lcd.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Tablet LCD
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/tabletlcd.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/charger-port'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/charger-port.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Charger Port
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/chargerport.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/back-glass'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/back-glass.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Back Glass
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/backglass.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/frame'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/frame.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Frame
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/frame.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/finger-print-scanner'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/finger-print.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Finger Print Scanner
+                                <img style="height: 114px;margin: 12px 1px;width: 125px;"
+                                     src="{{ asset('images/fingerprintscanner.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/wireless-charging'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/wireless-charging.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Wireless Charging
+                                <img style="height: 114px;margin: 12px 12px;width: 105px;"
+                                     src="{{ asset('images/wirelesscharging.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/proximity-issue'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/proximity-issue.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Proximity Issue
+                                <img style="height: 114px;margin: 12px 7px;width: 114px;"
+                                     src="{{ asset('images/proximityissue.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/s-open'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/s-pen.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    S Pen
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/spen.png') }}">
                             </div>
                             <div class="select-problem-cards"
                                  onclick="location.href='{{ env('APP_URL') }}/book-a-repair/problem/iris-issue'"
                                  style="width: 130px;border: 1px solid #0c2340;float: left;margin-top: 15px;padding-top: 10px;padding-bottom: 10px;border-radius: 4px;margin-left: 15px;margin-right: 15px;text-align: center">
-                                <img style="height: 78px;margin: 12px 25px;width: 78px;"
-                                     src="https://res.cloudinary.com/wefix/image/upload/v1568900955/icons/repairs/V2/iris-camera.svg">
-                                <p style="padding-top: 15px!important;padding-bottom: 2px!important;color: black!important;font-weight: bold;font-size: small!important;">
-                                    Iris Camera
+                                <img style="height: 114px;margin: 12px 25px;width: 78px;"
+                                     src="{{ asset('images/iriscamera.png') }}">
                             </div>
                         </div>
                     </div>

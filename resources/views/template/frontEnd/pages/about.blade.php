@@ -38,22 +38,22 @@
                 <div class="counter-block">
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                        <div class="counter-item-icon"> <i class="icon ion-heart-broken"></i></div><span>6500</span>
+                        <div class="counter-item-icon"> <i class="icon ion-heart-broken"></i></div><span>150</span>
                         <h4>Broken Screen</h4>
                     </div>
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                        <div class="counter-item-icon"> <i class="icon ion-battery-empty"></i></div><span>15000</span>
+                        <div class="counter-item-icon"> <i class="icon ion-battery-empty"></i></div><span>220</span>
                         <h4>Replacement Battery</h4>
                     </div>
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                        <div class="counter-item-icon"> <i class="icon ion-monitor"></i></div><span>1500</span>
+                        <div class="counter-item-icon"> <i class="icon ion-monitor"></i></div><span>55</span>
                         <h4>Working Hackintosh</h4>
                     </div>
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
-                        <div class="counter-item-icon"> <i class="icon ion-heart"></i></div><span>50000</span>
+                        <div class="counter-item-icon"> <i class="icon ion-heart"></i></div><span>1000</span>+
                         <h4>Happy Client</h4>
                     </div>
                 </div>

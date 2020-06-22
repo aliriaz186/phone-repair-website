@@ -18,7 +18,7 @@
     <div style="width: 300px!important;!important;margin: 0 auto!important;">
         <div class="brand-wrapper" style="text-align: center!important;">
             <img style="width: 200px; height: 150px; text-align: center!important;"
-                 src="{{ asset('images/logotype.png') }}" alt="">
+                 src="{{ asset('images/logotype.jpg') }}" alt="">
         </div>
         <div class="login-wrapper my-auto">
             <h1 class="login-title text-center">Log in</h1>

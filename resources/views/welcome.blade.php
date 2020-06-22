@@ -13,7 +13,7 @@
                         class="background-parallax-item" src="{{ asset('images/background-1.jpg') }}"
                         data-src="images/kh.jpg" alt=""></div>
                 <div class="home-background-overlay"></div>
-                <div class="home-content"><span class="home-content-heading">Broken your Phone?</span><span
+                <div class="home-content"><span class="home-content-heading">Cracked Screen?</span><span
                         class="home-content-subheading"><a style="color: white" href="{{env('APP_URL')}}/book-a-repair">Book a Repair</a></span>
                 </div>
             </header>
@@ -128,25 +128,25 @@
                         <!-- Counter Block Start -->
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                             <div class="counter-item-icon"><i class="icon ion-heart-broken"></i></div>
-                            <span>6500</span>
+                            <span>150</span>
                             <h4>Broken Screen</h4>
                         </div>
                         <!-- Counter Block Start -->
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                             <div class="counter-item-icon"><i class="icon ion-battery-empty"></i></div>
-                            <span>15000</span>
+                            <span>220</span>
                             <h4>Replacement Battery</h4>
                         </div>
                         <!-- Counter Block Start -->
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                             <div class="counter-item-icon"><i class="icon ion-monitor"></i></div>
-                            <span>1500</span>
+                            <span>55</span>
                             <h4>Home Button</h4>
                         </div>
                         <!-- Counter Block Start -->
                         <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                             <div class="counter-item-icon"><i class="icon ion-heart"></i></div>
-                            <span>50000</span>
+                            <span>1000</span>+
                             <h4>Happy Client</h4>
                         </div>
                     </div>
