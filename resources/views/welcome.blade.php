@@ -15,6 +15,8 @@
                 <div class="home-background-overlay"></div>
                 <div class="home-content"><span class="home-content-heading">Cracked Screen?</span><span
                         class="home-content-subheading"><a style="color: white" href="{{env('APP_URL')}}/book-a-repair">Book a Repair</a></span>
+                    <span style="text-align: center">Or</span>
+                    <span style="text-align: center;text-decoration: underline">Call us via  +94 7 666 944 77</span>
                 </div>
             </header>
             <!-- Content Block  -->
@@ -88,8 +90,8 @@
                                         <div class="service-icon-image"><i class="icon ion-iphone"></i></div>
                                         <h4>Phone Repair</h4>
                                         <p>Our experts can fix your phone within no time, be it any issues like charge
-                                            problems, battery issues, crashed system, button replacement and the best
-                                            part is that they come to you. </p>
+                                            problems, battery issues, crashed system, button replacement and so much
+                                            more.</p>
                                     </div>
                                 </div>
                                 <!-- Service Icon Block Start-->
