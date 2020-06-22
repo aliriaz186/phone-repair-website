@@ -17,13 +17,13 @@
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label for="pwd">Email</label>
-                                       <input type="text" value="{{$credentials->email}}" name="email">
+                                       <input type="text" value="{{$credentials->email}}" name="email" required>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label for="pwd">Password</label>
-                                       <input type="text" value="{{$credentials->password}}" name="password">
+                                       <input type="text" value="{{$credentials->password}}" name="password" required>
                                     </div>
                                 </div>
                                 <div style="margin-top: 5px!important;">
