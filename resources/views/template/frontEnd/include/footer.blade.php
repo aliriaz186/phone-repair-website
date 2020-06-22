@@ -3,9 +3,10 @@
         <div class="footer-main row row-flex">
             <div class="footer-description col-xs-12 col-md-4">
                 <h5>The Genius Fix Repairs</h5>
-                <p class="footer-description">The Genius Fix mobile workshops are a marvel in their own right, kitted
-                    out with all the latest tools and equipment needed to repair your device to the highest possible
-                    standard.</p>
+                <p class="footer-description">Our mobile phone repair experts are specialized in broken screen repair,
+                    phone battery replacement, and all other mobile phone issues. We undertake bookings for phone repair
+                    and provide on-site mobile phone repairs. The equipment we use are of high quality to provide you
+                    the best solutions for your damaged phone.</p>
             </div>
             <div class="footer-service col-xs-12 col-md-4">
                 <h5>Our Service </h5>
@@ -15,7 +16,8 @@
             <div class="footer-newsletter col-xs-12 col-md-4">
                 <h5>Our Newsletter </h5>
                 <p>Subscribe to our newsletter to receive news & updates. We promise to not spam you, super promise!</p>
-                <form class="footer-newsletter-form" onsubmit="return checkValidations()" action="{{url("/email/save")}}" method="post">
+                <form class="footer-newsletter-form" onsubmit="return checkValidations()"
+                      action="{{url("/email/save")}}" method="post">
                     @csrf
                     <input class="required email" placeholder="Your Email" type="email" value="" name="email"
                            id="mce-email">
