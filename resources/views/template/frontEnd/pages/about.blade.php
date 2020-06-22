@@ -87,7 +87,7 @@
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
                         <div class="counter-item-icon"> <i class="icon ion-monitor"></i></div><span>55</span>
-                        <h4>Working Hackintosh</h4>
+                        <h4>Home Button</h4>
                     </div>
                     <!-- Counter Block Start -->
                     <div class="counter-item col-xs-12 col-sm-6 col-md-3">
