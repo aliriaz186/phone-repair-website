@@ -127,7 +127,7 @@
 
                         <li>
                             <span class="icon-container"><i class="fa fa-phone"></i></span>
-                            <address><a href="#">+94 7 666 9 44 77</a></address>
+                            <address><a href="tel:+94766694477">+94 7 666 9 44 77</a></address>
                         </li>
 
                     </ul>
@@ -138,7 +138,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-envelope"></i></span>
-                            <address><a href="mailto:">Info@thegeniusfix.com</a></address>
+                            <address><a href="mailto:Info@thegeniusfix.com">Info@thegeniusfix.com</a></address>
                         </li>
                     </ul>
 
@@ -149,7 +149,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-globe"></i></span>
-                            <address><a href="#">www.thegfix.com</a></address>
+                            <address><a target="_blank" href="http:://thegfix.com">www.thegfix.com</a></address>
                         </li>
                     </ul>
 
