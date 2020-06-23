@@ -115,7 +115,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-home"></i></span>
-                            <address>3100 C/A Mouchak,Sylhet,UK</address>
+                            <address>30 1/1, Galle road, Dehiwala, Srilanka</address>
                         </li>
                     </ul>
 
@@ -127,7 +127,7 @@
 
                         <li>
                             <span class="icon-container"><i class="fa fa-phone"></i></span>
-                            <address><a href="#">+093-120-525-9162</a></address>
+                            <address><a href="#">+94 7 666 9 44 77</a></address>
                         </li>
 
                     </ul>
@@ -138,7 +138,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-envelope"></i></span>
-                            <address><a href="mailto:">query@yourdomain.com</a></address>
+                            <address><a href="mailto:">Info@thegeniusfix.com</a></address>
                         </li>
                     </ul>
 
@@ -149,7 +149,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-globe"></i></span>
-                            <address><a href="#">www.yourdomain.com</a></address>
+                            <address><a href="#">www.thegfix.com</a></address>
                         </li>
                     </ul>
 
