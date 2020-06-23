@@ -149,7 +149,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-globe"></i></span>
-                            <address><a target="_blank" href="http:://thegfix.com">www.thegfix.com</a></address>
+                            <address><a target="_blank" href="/">www.thegfix.com</a></address>
                         </li>
                     </ul>
 
