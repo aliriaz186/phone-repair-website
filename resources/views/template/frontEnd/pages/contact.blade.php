@@ -138,7 +138,7 @@
                     <ul class="contact-info">
                         <li>
                             <span class="icon-container"><i class="fa fa-envelope"></i></span>
-                            <address><a href="mailto:Info@thegeniusfix.com">Info@thegeniusfix.com</a></address>
+                            <address><a href="mailto:Info@thegeniusfix.com">info@thegfix.com</a></address>
                         </li>
                     </ul>
 
